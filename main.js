@@ -43,7 +43,7 @@ const setTime = setInterval(() => {
 
 const getFocus = () => {
     if (localStorage.getItem('name') === null) {
-        name.value = '[Enter name]';
+        name.value = '';
     }
     else {
         name.value = localStorage.getItem('name');
